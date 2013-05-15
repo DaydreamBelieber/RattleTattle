@@ -1,7 +1,6 @@
 package com.daydreambelieber.rattletattle;
 
 import android.annotation.TargetApi;
-import android.app.NotificationManager;
 import android.app.Service;
 import android.content.Intent;
 import android.os.Build;
@@ -11,10 +10,7 @@ import android.widget.Toast;
 @TargetApi(Build.VERSION_CODES.JELLY_BEAN)
 public class ListenForRattle extends Service {
 	
-    private static final int NOTIFICATION_EX = 1;
-    private NotificationManager notificationManager;
-	
-	public ListenForRattle() {
+    public ListenForRattle() {
 	}
 	
 	@Override
@@ -35,7 +31,7 @@ public class ListenForRattle extends Service {
 
     @Override
     public int onStartCommand(Intent intent, int flags, int startid) {
-    	Toast.makeText(this, "Started!", Toast.LENGTH_LONG).show();
+    	Toast.makeText(this, "Service Started!", Toast.LENGTH_LONG).show();
     	
         return START_STICKY;
     }
