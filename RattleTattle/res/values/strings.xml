@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">RattleTattle</string>
+    <string name="action_settings">Settings</string>
+    <string name="hello_world">Hello world!</string>
+    <string name="button_heading">Listen for Rattlesnakes</string>
+    <string name="listen_button_off">Start Listening?</string>
+    <string name="listen_button_on">I\'m Listening</string>
+    <string name="title_activity_display_toggle_response">DisplayToggleResponseActivity</string>
+    <string name="success_kid">awwwwwwwww   Yeeaaahhhhh</string>
+    <string name=":listen_for_rattle_process">listenForRattleProc</string>
+
+</resources>
